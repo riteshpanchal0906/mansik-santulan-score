@@ -33,7 +33,7 @@ class StudentData(BaseModel):
 
 # Describe Whar We send back
 class PredictionResponse(BaseModel):
-      predicted_mental_health_scoreL:float
+      predicted_mental_health_score :float
       #6.777777 -> float
 
 @app.get('/')
